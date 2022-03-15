@@ -42,6 +42,10 @@ a{color: white;}
 a{font-size: 17px;}
 
 
+/*bo tròn ảnh*/
+.botron1 {border-radius:15px 15px 15px;}
+
+
 
 
 /* nút downdload */
