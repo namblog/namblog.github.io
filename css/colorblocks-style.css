@@ -35,8 +35,11 @@ a,
 a:visited,
 a:active,
 /*màu link 
-a:hover{color:#0099ff;} */
-a:hover{ text-decoration:none;}
+a:hover{color:#0099ff;}
+a:hover{ text-decoration:none;} */
+a{text-decoration: none}
+a{color: white;}
+a{font-size: 17px;}
 
 
 
