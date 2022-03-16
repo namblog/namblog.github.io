@@ -51,6 +51,20 @@ a{font-size: 17px;}
 .botron1 {border-radius:15px 15px 15px;}
 
 
+.col-wrap {
+  display: table;
+  width: 100%;
+}
+
+.col {
+  display: table-cell;
+  padding: 2rem
+}
+
+
+
+
+
 
 
 /* nút downdload */
