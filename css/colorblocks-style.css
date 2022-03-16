@@ -14,7 +14,7 @@ BASE (MOBILE) SIZE
 */
 
 
-/*dòng 224 đã thay đổi*/
+/*dòng 229 đã thay đổi*/
 
 
 
@@ -226,7 +226,7 @@ img{ max-width:100%; height:auto;}
 .grid_10,
 .grid_11,
 .grid_12 {
-	margin-bottom:0px;/*mặc định là 40*/
+	margin-bottom:20px;/*mặc định là 40*/
 	/*positioning and padding*/
 	position: relative;
     min-height: 1px;
