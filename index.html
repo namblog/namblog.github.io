@@ -143,18 +143,32 @@
 
 
 
+
+
+
 <script>
-var BGM = [];
-BGM[0] = "music/nhacnen.mp3";
-BGM[1] = "music/HungarianSonata-RichardClayderman.mp3";
-BGM[2] = "music/NightOfThePiano-HoaTau.mp3";
-BGM[3] = "music/RiverFlowsInYou-Yiruma.mp3";
-BGM[4] = "music/SundialDreams-KevinKern.mp3";
+<!--
+//By George Chiang (http://www.javascriptkit.com) More JavaScripts here!
+var sound1="music/nhacnen.mp3"
+var sound2="music/HungarianSonata-RichardClayderman.mp3"
+var sound3="music/NightOfThePiano-HoaTau.mp3"
+var sound4="music/RiverFlowsInYou-Yiruma.mp3"
+var sound5="music/SundialDreams-KevinKern.mp3"
 
-var idx = Math.round( Math.random() * 4 );
-
-document.write("<embed src='"+BGM[idx]+"' autostart=true hidden=true         loop=true'>"); 
+var x=Math.round(Math.random()*9)
+if (x==0) x=sound1
+else if (x==1) x=sound2
+else if (x==2) x=sound3
+else if (x==3) x=sound4
+else if (x==4) x=sound5
+else x=sound5
+if (navigator.appName=="Microsoft Internet Explorer")
+document.write('<bgsound src='+'"'+x+'"'+' loop="infinite">')
+else 
+document.write('<embed src='+'"'+x+'"'+'hidden="true" border="0" width="20" height="20" autostart="true" loop="true">')
+//-->
 </script>
+
 
 <!-- footer area -->    
 <footer>
