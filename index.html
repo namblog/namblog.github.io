@@ -142,6 +142,20 @@
 
 
 
+
+<script>
+var BGM = [];
+BGM[0] = "/music/nhacnen.mp3";
+BGM[1] = "/music/HungarianSonata-RichardClayderman.mp3";
+BGM[2] = "/music/NightOfThePiano-HoaTau.mp3";
+BGM[3] = "/music/RiverFlowsInYou-Yiruma.mp3";
+BGM[4] = "/music/SundialDreams-KevinKern.mp3";
+
+var idx = Math.round( Math.random() * 4 );
+
+document.write("<embed src='"+BGM[idx]+"' autostart=true hidden=true loop=true'>");
+</script>
+
 <!-- footer area -->    
 <footer>
 	<div id="colophon" class="wrapper clearfix">
