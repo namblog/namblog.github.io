@@ -619,3 +619,27 @@ PRINT STYLESHEET
   width: 100%;
   height: 100%;
 }
+
+
+
+/*màu nền đẹp*/
+.nen1{
+	background:#E9EFC0;
+	color:#fff;
+}
+
+.nen2{
+	background:#B4E197;
+	color:#fff;
+}
+
+.nen3{
+	background:#83BD75;
+	color:#fff;
+}
+
+.nen4{
+	background:#4E944F;
+	color:#fff;
+}
+
