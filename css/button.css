@@ -536,6 +536,14 @@ background: linear-gradient(0deg, rgba(2,126,251,1) 0%,  rgba(0,3,255,1)100%);
 
 /* 11 */
 .btn-11 {
+  width: 110px;
+  height: 40px;
+  padding: 1px;
+  margin: 1px;
+
+}
+
+.btn-11 {
   border: none;
   /*background: rgb(251,33,117);
     background: linear-gradient(0deg, rgba(251,33,117,1) 0%, rgba(234,76,137,1) 100%);*/
